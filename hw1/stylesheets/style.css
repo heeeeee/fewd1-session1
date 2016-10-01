@@ -1,0 +1,105 @@
+body{
+	background-color: #FFFFFF;
+	color: white;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	color: white;
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+h4 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #808080;
+	letter-spacing: 1px;
+}
+
+a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #24D6AD;
+}
+
+hr{
+	border: 1px solid #808080
+}
+
+img {
+	float: right;
+	margin: 0 0 5px 5px;
+	padding: 5px;
+	border: 1px solid #808080;
+}
+
+p {
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+ul.wendy-inline-list{
+	text-align: center;
+	padding: 5px;
+}
+
+li.wendy-inline-list-lines {
+	display: inline-block;
+	padding: 0px 5px 0px 5px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wendy-inline-list li {
+	border-right: 2px solid #808080;
+}
+
+.wendy-inline-list li:last-of-type {
+	border-right: none;
+}
+
+.wendy-inline-list ul li {
+	border-right: none;
+}
+
+ul.wendy-resume-list{
+	padding-left: 20px
+}
+
+li.wendy-resume-list-line{
+	list-style-type: square;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #FFFFFF;
+}
+
+span.wendy_resume_desc{
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	color: #808080;
+}
+
+span.wendy_resume_time{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #808080;
+	font-size: 70%;
+}
+
+
+.wendy_body_frame {
+	background-color: #464747;
+	width: 515px;
+	padding: 80px;
+	margin: 0 0 25px 25px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	outline: 4px solid #808080;
+	outline-offset: -40px;
+}
+
+#page-header {
+	font-size: 50px;
+	text-align: center;
+	font-style: italic;
+}
